@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="/nextpage.html">
+    <div>
+    <label for="std_name" >Student Name</label><br>
+    <input type="text" id="std_name" name="std_name" size="50"></div><br>
+    
+    <label for="phone_num" >Mobile number</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="email_id" >Email id</label><br>
+    <input id="phone_num" type="tel" name="phone_num" pattern="[0-9]{10}">&nbsp;
+    <input id="email_id" type="email" name="email_id"><br><br>
+    <label for="father_name" >Father Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="mom_name" >Monther name</label><br>
+    <input id="father_name" type="text" name="father_name">&nbsp;
+    <input id="mom_name" type="text" name="mom_name"><br><br>
+    <label for ="course" >Slect Course</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="dob">Date of Birth</label><br>
+    <select name="Course">
+        <option value="ntg">Select</option>
+        <option value="CSE">CSE</option>
+        <option value="ECE">ECE</option>
+        <option value="EEE">EEE</option>
+        <option value="Civil">Civil</option>
+    </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="date" id="dob" name="dob"><br><br>
+    <label for ="Gender" >Gender</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="Photo">Student Photo</label><br>
+    <input type="radio" id="boy" name="Gender" value="boy">
+    <label for="boy">Boy</label>
+    <input type="radio" id="girl" name="Gender" value="girl"> 
+    <label for="girl">Girl</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="file" id="Photo" name="Photo"><br>
+    <label >Select Branch</label><br>
+    <input type="checkbox" id="CS" name="Branch" value="cs">
+    <label for="CS">CSE</label>&nbsp;&nbsp;
+    <input type="checkbox" id="IT" name="Branch" value="it">
+        <label for="IT">IT</label>&nbsp;&nbsp;
+    <input type="checkbox" id="Civil" name="Branch" value="civil">
+    <label for="Civil">Civil</label>&nbsp;&nbsp;
+    <input type="checkbox" id="ECE" name="Branch" value="ece">
+    <label for="ECE">ECE</label>&nbsp;<br>
+    <label for="Address">Address</label><br>
+    <textarea id="Address" name="Address" rows="4" cols="40"></textarea><br>
+    <button >submit</button>
+    <button type="reset">Clear</button>
+    
+    </form>
+</body>
+</html>
