@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <style>
+        .heading{
+            font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+            font-weight: 900;
+            color: #3efb58;
+            
+        }
+        h1{
+            font-family:"Copperplate Gothic Light", Papyrus, fantasy;
+            color: #2cd3fd;
+        }
+        form{
+            width: 300px;
+            border: 2px solid black;
+            padding: 20px;
+            background-color: #F9B2D7;
+            border-radius: 10px;
+            margin: 50px auto;
+            font-family: Arial;
+        }
+        label{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+    </style>
+</head>
+<body style="background-color: #F6FFDC;">
+    <h1>Yashaswini CK</h1>
+    <p>This is my 1st version of Student protal and I am very excited to make &#58;	&#41;</p>
+    <h3 class="heading">Favorite Programming language</h3>
+    <ol type="1">
+        
+        <li>C</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>HTML</li>
+        <li>CSS</li>
+    </ol>
+    <h3 class="heading">Hobbies</h3>
+    <ul type="circle">
+        
+        <li>Drawing</li>
+        <li>Dancing</li>
+        <li>Playing</li>
+        <li>Talking</li>
+    </ul>
+    <h3 class="heading">Touch to Open &#x1F447;</h3>
+    
+    <dl>
+        <dd><a href="https://www.google.com" target="_blank">Google</a></dd>
+        <dd><a href="https://www.youtube.com" target="_blank">Youtube</a></dd>
+        <dd><a href="https://www.instagram.com" target="_blank">Instagram</a></dd>
+    </dl>
+    <h3 class="heading">Student Table</h3>
+    
+    <table border="1" style="background-color: #FFEBCC;">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Course</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Yash</td>
+                <td>18</td>
+                <td>CSE</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Abhi</td>
+                <td>15</td>
+                <td>CSE</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Krish</td>
+                <td>18</td>
+                <td>IT</td>
+                <td>98</td>
+            </tr>
+            
+        </tbody>
+    </table>
+    <form id="reg" action="/next.page">
+        <h3 >Registration Form</h3>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name"><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email"><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password"><br>
+        <label>Gender</label>
+        <input type="radio" name="gender" value="boy" id="boy">
+        <label for="boy">boy</label>
+        <input type="radio" name="gender" value="girl" id="girl">
+        <label for="girl">girl</label>
+        <input type="radio" name="gender" value="others" id="others">
+        <label for="others">others</label><br>
+        <label id="Course">Course</label>
+        <select id="Course" name="course">
+            <option value="Select">Select</option>
+            <option value="cse">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+            <option value="IT">IT</option>
+        </select><br>
+        <button type="submit">submit</button>
+        <button type="reset">Reset</button>
+        <button type="button">Login</button>
+    </form>
+    </div>
+</body>
+</html>
