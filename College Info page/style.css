@@ -1,0 +1,45 @@
+/*•	Element Selector*/
+h1{
+    font-family: Geneva, Tahoma, Verdana, sans-serif; 
+    color: rgb(240, 113, 103); 
+    background-color:rgb(253, 252, 220); 
+    text-align:center;
+}
+/* ID Selector */
+#para{
+    background-color:rgb(253, 252, 220) ;
+    font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+        color: rgb(4, 114, 114);
+        font-weight: 700;
+        font-size: larger;
+        font-style: italic;
+        padding: 10px;
+}
+/* 	Class Selector */
+.course{
+            border: 1px solid black;
+            color: green;
+            margin: 10px;
+            padding: 10px;
+        }
+
+.course:hover{
+    background-color: rgb(253, 252, 220);
+}
+/* Grouping Selector */
+table, th, td{
+             
+            border-collapse:collapse;
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            margin: 0 auto; width: 80%;
+        }
+        table{
+             margin: 40px auto 0 auto; 
+        }
+        /* 	Universal Selector */
+        *{
+            margin: 0;
+            font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+        }
