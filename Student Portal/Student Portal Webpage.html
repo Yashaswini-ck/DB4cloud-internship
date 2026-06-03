@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/2997/2997279.png">
+    <link rel="StyleSheet" href="style.css">
+    <style>
+        nav a{
+            text-decoration: none;
+            color: rgb(0, 129, 167);
+            margin-right: 20px;
+            
+        }
+        nav{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 style="font-family: Geneva, Tahoma, Verdana, sans-serif; color: rgb(240, 113, 103); background-color:rgb(253, 252, 220); text-align:center;">Student Portal</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Course</a>
+        <a href="#">Contact</a>
+    </nav>
+    <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com"><br>
+        <label for="password" >Password:</label>
+        <input type="password" id="password" name="password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^A-Za-z0-9]).{8,}"  title="Must contain uppercase, lowercase, number, special character and at least 8 characters" placeholder="Enter a Strong Password" ><br>
+        <label >Gender:</label>
+        <input type="radio" id="male" name="Gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="Gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="others" name="Gender" value="others">
+        <label for="others">Others</label><br>
+        <label for="courses">Course:</label>
+        <select name="courses" id="courses">
+            <option value="select your Course">select your Course</option>
+            <option value="CSE">CSE</otion>
+            <option value="EEE" >EEE</otion>
+            <option value="ECE">ECE</otion>
+            <option value="IT">IT</otion>
+        </select><br>
+        <button type="submit">Submit</button>
+
+
+    </form>
+    <table border="1">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Marks</th>
+        </tr>
+         </thead>
+        <tr>
+            <td>101</td>
+            <td>Krish</td>
+            <td>BCA</td>
+            <td>90</td>
+        </tr>
+
+        <tr>
+            <td>102</td>
+            <td>Rahul</td>
+            <td>BSc</td>
+            <td>85</td>
+        </tr>
+    </table>
+    <img src="https://img.magnific.com/free-vector/happy-people-jump-with-raised-arms-characters-win_107791-14884.jpg?semt=ais_hybrid&w=740&q=80"
+     alt="students"
+     style="width:100%; height:4cm;">
+     <p>This is a my 1st version of student protol Excited to see my pro version :)</p>
+</body>
+</html>

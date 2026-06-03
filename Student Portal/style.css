@@ -1,0 +1,44 @@
+form {
+    border: 2px solid black;
+    width: 300px;
+    padding: 15px;
+   
+}
+input{
+    margin-bottom: 10px;
+    
+} 
+button{  
+  background-color: rgb(25, 147, 241);
+  color: whitesmoke;
+   font-family: "Palatino Linotype", "Big Caslon", "Book Antiqua",  Georgia, serif; 
+  margin-top: 12px;
+}
+table {
+    border-collapse:separate;
+    width: 60%;
+    margin-top: 10px;
+    
+}
+th,
+td {
+    padding: 10px;
+}
+thead{
+   background-color: rgba(230, 230, 216, 0.843);
+}
+tr:hover {
+     background-color: whitesmoke
+    
+    
+}
+img{
+    margin-top: 10px;
+}
+p{
+     font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+        color: rgb(4, 114, 114);
+        font-weight: 400;
+        font-size: large;
+        font-style: italic;
+}
