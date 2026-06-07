@@ -37,7 +37,7 @@ table, th, td{
         table{
              margin: 40px auto 0 auto; 
         }
-        /* 	Universal Selector */
+        /* 	Universal Selector. */
         *{
             margin: 0;
             font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
