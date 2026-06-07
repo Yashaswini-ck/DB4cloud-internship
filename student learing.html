@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Learning Portal</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.945);
+    margin: 0;
+}
+
+/* Header */
+header{
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav{
+    margin-top: 10px;
+}
+
+/* Link Styles */
+nav a:link{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:visited{
+    color: lightgray;
+}
+
+nav a:hover{
+    color: yellow;
+}
+
+nav a:active{
+    color: red;
+}
+
+nav a{
+    margin: 15px;
+}
+
+/* Sections */
+section{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid gray;
+}
+
+/* Lists */
+ol{
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+ul{
+    list-style-type: square;
+    list-style-position: outside;
+}
+
+.nobullets{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li{
+    margin: 8px 0;
+}
+
+/* Table */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th{
+    background-color: #3498db;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr:hover{
+    background-color: #d6eaf8;
+}
+
+/* Quick Links */
+.quick-links a:link{
+    color: blue;
+    text-decoration: none;
+}
+
+.quick-links a:visited{
+    color: rgb(201, 92, 201);
+}
+
+.quick-links a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+.quick-links a:active{
+    color: red;
+}
+.quick-links p{
+    display: inline;
+   text-align: center;
+   margin-right: 20px;
+    
+}
+.quick-links{
+    
+    text-align: center;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <h1>Student Learning Portal</h1>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Courses</a>
+        <a href="#">Timetable</a>
+        <a href="#">Results</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<!-- Course Categories -->
+<section>
+    <h2>Course Categories</h2>
+
+    <h3>Ordered List</h3>
+    <ol>
+        <li>Frontend Development</li>
+        <li>Backend Development</li>
+        <li>Database Management</li>
+    </ol>
+
+    <h3>Unordered List</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h3>Nested List</h3>
+
+<ul style="list-style-type: disc;">
+    <li>Frontend
+        <ul style="list-style-type: circle;">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </li>
+
+    <li>Backend
+        <ul style="list-style-type: circle;">
+            <li>Node.js</li>
+            <li>Java</li>
+        </ul>
+    </li>
+
+    <li>Database
+        <ul style="list-style-type: circle;">
+            <li>MySQL</li>
+            <li>MongoDB</li>
+        </ul>
+    </li>
+</ul>
+
+    <h3>List Without Bullets</h3>
+    <ul class="nobullets">
+        <li>Online Learning</li>
+        <li>Assignments</li>
+        <li>Projects</li>
+    </ul>
+</section>
+
+<!-- Student Marks Table -->
+<section>
+    <h2>Student Marks Table</h2>
+
+    <table>
+        <tr>
+            <th>Student Name</th>
+            <th>HTML</th>
+            <th>CSS</th>
+            <th>JavaScript</th>
+            <th>Total</th>
+            <th>Grade</th>
+        </tr>
+
+        <tr>
+            <td>Krish</td>
+            <td>90</td>
+            <td>85</td>
+            <td>88</td>
+            <td>263</td>
+            <td>A</td>
+        </tr>
+
+        <tr>
+            <td>Rahul</td>
+            <td>80</td>
+            <td>78</td>
+            <td>82</td>
+            <td>240</td>
+            <td>B</td>
+        </tr>
+
+        <tr>
+            <td>Anjali</td>
+            <td>95</td>
+            <td>92</td>
+            <td>90</td>
+            <td>277</td>
+            <td>A+</td>
+        </tr>
+
+        <tr>
+            <td>Sneha</td>
+            <td>75</td>
+            <td>80</td>
+            <td>77</td>
+            <td>232</td>
+            <td>B</td>
+        </tr>
+
+        <tr>
+            <td>Arjun</td>
+            <td>88</td>
+            <td>84</td>
+            <td>86</td>
+            <td>258</td>
+            <td>A</td>
+        </tr>
+    </table>
+</section>
+
+<!-- Quick Links -->
+<section class="quick-links">
+    <h2>Quick Links</h2>
+
+    <p><a class="link" href="https://www.google.com" target="_blank">Google</a></p>
+    <p><a class="link" href="https://github.com" target="_blank">GitHub</a></p>
+    <p><a class="link" href="https://www.youtube.com" target="_blank">YouTube</a></p>
+    <p><a class="link" href="https://www.w3schools.com" target="_blank">W3Schools</a></p>
+</section>
+
+</body>
+</html>
